@@ -1,17 +1,7 @@
 # Sources and assistance
 
-## Assignment and baseline
-
-The Sprint 1 instructions and instructor feedback were supplied in the task prompt. The grading rubric was reviewed from the workspace file `../rubrik-sprint1.pdf`; it is not copied into this project folder. The included kickoff baseline is preserved under `docs/archive/`.
-
-- `rubrik-sprint1.pdf`: the four grading criteria. The PDF is maintained at the workspace root and is not required as a project file.
-- Instructor feedback on kick-off, supplied verbatim in the task prompt: BCNF evidence, ERD completeness, competency/current-limitation planning and Advanced Relational Design coverage.
-- Sprint 1 assignment text supplied with this project: current scope through Advanced Relational Design, next scope through Advanced SQL, repository URL/hash and video requirements.
-- Original kickoff plan, schema and data: preserved in `docs/archive/`.
-
 ## Course material
 
-Sean Chester's supplied `lesson modules/` folder includes 13 lecture PDFs (510 pages/slides total). All 13 were reviewed. `docs/COURSE_ALIGNMENT.md` connects the course topics to the project. The table below lists all 13 supplied PDFs and their use.
 
 | PDF | Use in this submission |
 | --- | --- |
@@ -29,16 +19,4 @@ Sean Chester's supplied `lesson modules/` folder includes 13 lecture PDFs (510 p
 | CSC370-23_ 3NF - corrected.pdf | Prime attributes, preservation tradeoffs and synthesis with key augmentation |
 | CSC370-24_ 4NF & MVD's.pdf | Tuple-swap definition, MVD properties and 4NF decomposition |
 
-The supplied lesson-module folder contains these 13 PDFs (510 pages total); each file was reviewed. Course references are without redistributing any PDFs.
-
-## MySQL documentation
-
-- [CREATE TABLE](https://dev.mysql.com/doc/refman/8.4/en/create-table.html): table constraints and explicit storage-engine selection.
-- [Trigger syntax and examples](https://dev.mysql.com/doc/refman/8.4/en/trigger-syntax.html): trigger bodies and OLD/NEW references.
-- [Stored routines and privileges](https://dev.mysql.com/doc/refman/8.4/en/stored-routines-privileges.html): CREATE ROUTINE, ALTER ROUTINE and EXECUTE permissions.
-
-The changes use the course methods and MySQL interfaces listed above.
-
-## Assistance and review
-
-AI assistance was used to review the supplied course materials, rubric, feedback and project files, and to edit the project documentation and diagrams. The group remains responsible for verifying the final work and its claims.
+Note* Sprint 1 Instructions and Kickoff Feedback was also used
