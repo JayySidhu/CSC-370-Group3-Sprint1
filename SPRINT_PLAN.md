@@ -14,14 +14,6 @@ Group 3: Amrinder Singh, Jaiman Singh and Aashna Sadeque. We worked together on 
 | Write more useful reporting queries | Five optional, unverified kick-off queries | Seven verified reports: two new LEFT JOIN reports for zero-application students and missing resume assignments, plus corrected upcoming filter; exact expected rows tested from the report file | Delivered; output in `evidence/demo-output.tsv` |
 | Short demo proving workflow | DDL was not execution evidence | Automated create/apply/resume/interview/offer/rollback workflow and rejected writes on MySQL 8.4.8 | Reproducible database demo delivered; video required separately |
 
-## Delivery: every feedback correction
-
-| TA feedback | Correction | Evidence to show |
-| --- | --- | --- |
-| BCNF not fully demonstrated table by table | Nine-table FD basis, all keys, closure/minimality/BCNF checks; resume FD resolved by decomposition | `NORMALIZATION.md`, `evidence/design-verification.txt` |
-| ERD omitted most attributes | Complete Chen conceptual model covers every descriptive attribute/identifier, and relational companion shows all 59 SQL columns including all 13 JobPosting columns | `CONCEPTUAL_ERD.svg`, `CONCEPTUAL_ERD.md`, `ERD.svg`, `RELATIONAL_SCHEMA.md` |
-| Course competency and current limitation unnamed | Next-sprint plan names the course competencies (Analyse data with SQL; Model the world as data; Build robust back ends), states current project limitations and gives measurable goals | Sprint 2 matrix and `docs/COURSE_ALIGNMENT.md` |
-| Missing FDs in ERDs, minimal bases, projection, 3NF, 4NF | Explicit worked examples, assumptions and proofs/decisions | `NORMALIZATION.md`; not merely future promises |
 
 ## Missed goals and technical limits
 
