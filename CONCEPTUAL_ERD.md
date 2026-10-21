@@ -40,4 +40,4 @@ Application is an entity because it has lifecycle attributes and participates in
 
 The child identifier determines its parent identifier in each many-to-one relationship: for example, `application_id -> posting_id`. The reverse does not follow. An optional Selected relationship determines `resume_id` only for rows in the assignment relation. Resume ownership additionally implies `resume_id -> student_id`; the decomposition and enforcement of same-student ownership are explained in [NORMALIZATION.md](NORMALIZATION.md) and [docs/CONSTRAINTS.md](docs/CONSTRAINTS.md).
 
-The design follows the supplied CSC 370 course material on conceptual design, multiplicities and ERDs-to-FDs. Its 13 lesson-module PDFs (510 pages/slides) were reviewed. The model's assumptions and decisions about weak entities and inheritance are in [docs/CONSTRAINTS.md](docs/CONSTRAINTS.md). The files in [evidence/](evidence/README.md) include recorded checks of conceptual attribute and relationship mapping.
+
